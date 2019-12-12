@@ -23,4 +23,5 @@ const plumber 		= require('gulp-plumber'),
 							.pipe($.gulp.dest('./html/'))
 							.on('end', $.browserSync.reload);
 			});
+			
 		};
